@@ -1,10 +1,18 @@
 $(document).ready(function () {
     $('.carousel').carousel({
-        interval: 5000,
-        pause: "false"
+        interval: 5000
+//        pause: "false"
     });
-});
 
+    wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 300
+            }
+    );
+    wow.init();
+
+});
 var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');

@@ -15,50 +15,10 @@ h1,h2,h3,h4,h5,h6{
     background-position: center;
     background-repeat: no-repeat;
 }
-/*.affix {
-    padding:0px;
-    -webkit-transition:padding 1s linear;
-    -moz-transition:padding 1s linear;  
-    -o-transition:padding 1s linear;         
-    transition:padding 1s linear;  
-    animation-name: clrchangeprim;    
-    animation-duration: 1s;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
-}
-
-.affix-top {
-    padding: 10px 0px;
-    background-color: transparent ;
-    -webkit-transition:padding 1s linear;
-    -moz-transition:padding 1s linear;  
-    -o-transition:padding 1s linear;         
-    transition:padding 1s linear;  
-    animation-name: clrchangeprimrev;    
-    animation-duration: 1s;
-}*/
-/*@keyframes clrchangeprim {
-    from {
-        background-color: transparent;
-        box-shadow: 0;
-    }
-    to {
-        background-color: #7ecefd;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
-    }
-}
-@keyframes clrchangeprimrev {
-    from {
-        background-color: #7ecefd;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
-    }
-    to {
-        background-color: transparent;
-        box-shadow: 0;
-    }
-}*/
 .navbar-default{
     border-bottom: 0;
     background-color: #7ecefd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
 }
 .three-d {
     -webkit-perspective: 200px;
@@ -200,26 +160,15 @@ h1,h2,h3,h4,h5,h6{
     transform: rotateX(0deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%)
+}
+.carousel-caption h1{
+    font-size: 90px;
+    text-shadow: none;
+    font-weight: 700;
+}
 
 section{
     padding-top: 45px;
