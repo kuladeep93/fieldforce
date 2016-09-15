@@ -12,4 +12,6 @@ $(document).ready(function () {
     );
     wow.init();
 
+
+    $('[data-submenu]').submenupicker();
 });
