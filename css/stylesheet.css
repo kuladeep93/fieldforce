@@ -18,6 +18,9 @@ h1,h2,h3,h4,h5,h6{
 a{
     text-decoration: none;
 }
+.row{
+    padding: 25px 0;
+}
 .three-d {
     -webkit-perspective: 200px;
     -moz-perspective: 200px;
@@ -239,6 +242,9 @@ section{
 .box-1 .caption-cont h2{
     color: #7ecefd;
 }
+/****************
+about us 
+**********************/
 #features span{
     font-size: 20px;
 }
@@ -249,12 +255,9 @@ section{
 #features .caption-cont h3{
     margin: 5px;
 }
-#container3{
-    background-color: #3e454c;
-}
-#container3 img{
-    width: 100%;
-}
+/********************************
+        services
+******************************/
 #services{
     background-color: #f7f7f7;
 }
@@ -266,6 +269,18 @@ section{
     text-transform: uppercase;
     font-size: 25px;
     color: #7ecefd;
+}
+#industries{
+    background-color: #3e454c;
+}
+#industries img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#industries img:hover{
+    border: 20px solid rgba(255,255,255,0.3);
 }
 
 /******************************** 
