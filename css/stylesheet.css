@@ -255,6 +255,18 @@ section{
 #container3 img{
     width: 100%;
 }
+#services{
+    background-color: #f7f7f7;
+}
+#services i{
+    font-size: 40px;
+    color: #7ecefd;
+}
+#services h4{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #7ecefd;
+}
 
 /******************************** 
 testimonials
