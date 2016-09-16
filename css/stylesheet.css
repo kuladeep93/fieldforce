@@ -278,9 +278,11 @@ about us
     height: 250px;
     border-radius: 50%;
     margin-bottom: 20px;
+    border: 15px solid rgba(255,255,255,0);
+    transition: 1s;
 }
 #industries img:hover{
-    border: 20px solid rgba(255,255,255,0.3);
+    border: 15px solid rgba(255,255,255,0.5);
 }
 
 /******************************** 
